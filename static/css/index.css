@@ -1,0 +1,102 @@
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.voice-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Camera Section Styles */
+.camera-container {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#webcam {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.camera-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Metrics Section Styles */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.metric-card {
+  text-align: center;
+  padding: 15px;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+.metric-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.metric-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Button Styles */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
