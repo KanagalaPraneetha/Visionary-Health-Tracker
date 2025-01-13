@@ -45,3 +45,7 @@ def settings():
 @routes.route('/voice-commands')
 def voice_commands():
     return render_template('voice_commands.html')
+
+@routes.route('/brainrot')
+def brainrot():
+    return render_template('brainrot.html')
