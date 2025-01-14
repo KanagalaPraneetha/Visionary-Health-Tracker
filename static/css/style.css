@@ -4,8 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e9d5ff;
+  line-height: 1.6;
 }
-
 body {
   background: linear-gradient(
     135deg,
