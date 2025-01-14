@@ -29,60 +29,53 @@ The Visionary Health Tracker is a web-based application designed to assist users
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/visionary-health-tracker.git
-Navigate to the project directory:
+   
+2. Navigate to the project directory:
 
-cd visionary-health-tracker
+   ```cd visionary-health-tracker```
 
-Install dependencies:
+3. Install dependencies:
 
-pip install -r requirements.txt
+   ```pip install -r requirements.txt```
 
-Run the application:
+4. Run the application:
 
     flask run
 
-Usage
+## Usage
+   1. Open the application in your web browser.
+   2. Upload an image or use the live webcam feature for meal or exercise tracking.
+   3. Input health metrics to receive personalized recommendations.
+   4. View progress reports to track improvements over time.
 
-    Open the application in your web browser.
-    Upload an image or use the live webcam feature for meal or exercise tracking.
-    Input health metrics to receive personalized recommendations.
-    View progress reports to track improvements over time.
+## Technologies Used
 
-Technologies Used
+   1. Frontend: HTML, CSS, JavaScript
+   2. Backend: Flask
+   3. AI Models: LLMs and Computer Vision
+   4. Database: SQLite (or preferred database)
 
-    Frontend: HTML, CSS, JavaScript
-    Backend: Flask
-    AI Models: LLMs and Computer Vision
-    Database: SQLite (or preferred database)
-
-Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
+   1. Fork the repository.
+   2. Create a new branch:
 
-    Fork the repository.
-    Create a new branch:
+   ```git checkout -b feature/your-feature```
 
-git checkout -b feature/your-feature
+   3. Commit your changes:
 
-Commit your changes:
+   ```git commit -m "Add your feature"```
 
-git commit -m "Add your feature"
+   4. Push the branch:
 
-Push the branch:
+   ```git push origin feature/your-feature```
 
-    git push origin feature/your-feature
+   5. Open a Pull Request.
 
-    Open a Pull Request.
-
-License
+## License
 
 This project is licensed under the MIT License.
-Contact
-
-For questions or suggestions, feel free to contact the team:
-
-    Email: support@visionarytracker.com
-    GitHub: your-github-profile
 
 Thank you for using Visionary Health Tracker! 🚀
 
