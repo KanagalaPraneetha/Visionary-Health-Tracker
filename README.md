@@ -32,14 +32,16 @@ The Visionary Health Tracker is a web-based application designed to assist users
    
 2. Navigate to the project directory:
 
-   ```cd visionary-health-tracker```
+   ```bash
+   cd visionary-health-tracker
 
-3. Install dependencies:
+4. Install dependencies:
 
-   ```pip install -r requirements.txt```
+   ```bash
+   pip install -r requirements.txt
 
-4. Run the application:
-
+5. Run the application:
+   ```bash
     flask run
 
 ## Usage
@@ -59,23 +61,24 @@ The Visionary Health Tracker is a web-based application designed to assist users
 
 Contributions are welcome! Please follow these steps:
    1. Fork the repository.
+      
    2. Create a new branch:
-
-   ```git checkout -b feature/your-feature```
+      ```bash
+      git checkout -b feature/your-feature
 
    3. Commit your changes:
-
-   ```git commit -m "Add your feature"```
+      ```bash
+      git commit -m "Add your feature"
 
    4. Push the branch:
-
-   ```git push origin feature/your-feature```
+      ```bash
+      git push origin feature/your-feature
 
    5. Open a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 Thank you for using Visionary Health Tracker! 🚀
 
