@@ -92,8 +92,9 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="current-metrics">
                 <h3>Current Metrics:</h3>
                 <p>Heart Rate: ${data.metrics.heart_rate} BPM</p>
-                <p>Blood Pressure: ${data.metrics.blood_pressure}</p>
-                <p>Calorie Count: ${data.metrics.calorie_count}</p>
+                <p>Blood Pressure: ${data.metrics.blood_pressure} mmHg</p>
+                <p>Calorie Count: ${data.metrics.calorie_count} 
+                kcal</p>
               </div>
             </div>
           `;
