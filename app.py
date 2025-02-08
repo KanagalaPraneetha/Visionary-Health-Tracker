@@ -1,6 +1,6 @@
 from flask import Flask
-from app.routes import routes
-from app.models import db
+from src.routes import routes
+from src.models import db
 
 def create_app():
     app = Flask(__name__)
